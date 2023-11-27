@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools >= 61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "maybe-bool"
+version = "1.0.0"
+description = "Have a boolean value that could evaluate to true or false"
+readme = "README.md"
+authors = [{ name="Carl Furtado", email="carlzfurtado@gmail.com"}]
+license = { file="LICENSE" }
+
+keywords = ["boolean", "maybe", "joke"]
+
+requires-python = ">=3.9"
+
+[project.urls]
+Homepage = "https://github.com/User0332/maybe-boolean"
